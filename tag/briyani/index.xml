@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Your Title - briyani</title>
+ <link href="http://nammasamayal.github.io/tag/briyani/index.xml" rel="self"/>
+ <link href="http://nammasamayal.github.io/tag/briyani.html"/>
+ <updated>2017-12-13T23:28:56+05:30</updated>
+ <id>http://nammasamayal.github.io/tag/briyani.html</id>
+ <author>
+   <name>Author Here</name>
+ </author>
+ 
+ <entry>
+   <title>A.R.Rahman Briyani is not as good as before</title>
+   <link href="http://nammasamayal.github.io/briyani/restaurant/review/chennai/medavakkam/2017/12/13/A-R-Rahman-Briyani-is-not-as-good-as-before.html"/>
+   <updated>2017-12-13T00:00:00+05:30</updated>
+   <id>http://example.com/briyani/restaurant/review/chennai/medavakkam/2017/12/13/A-R-Rahman-Briyani-is-not-as-good-as-before</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/images/a-r-rahman-biriyani-medavakkam.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This is Namma Samayal’s experience with A.R.Rahman briyani. We were dining
+in Medavakkam restaurant for a long time, the quality used to be near perfect,
+but now it has dropped significantly. Notably the amount of meat in chicken
+briyani has dropped significantly.&lt;/p&gt;
+
+&lt;p&gt;Before a chicken briyani used to have nice two huge pieces of meat that was
+copious. When we ate we used to have meat in almost every bite, now the meat
+has dropped just to  one piece and mostly its the leg piece with little meat
+attached to it.&lt;/p&gt;
+
+&lt;p&gt;When A.R Rahman opened in Medavakkam, it was the place to go, but now it has
+become just another restaurant which serves just another medium quality briyani
+with very less meat.&lt;/p&gt;
+
+&lt;p&gt;Its quiet sad that restaurant we cherished for briyani has become like this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://medium.com/@karthik_ak/a-r-rahman-briyani-is-good-3ba73621bc32&quot;&gt;A.R.Rahman Briyani is good&lt;/a&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+</feed>
