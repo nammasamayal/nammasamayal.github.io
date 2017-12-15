@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - vegetarian</title>
- <link href="http://nammasamayal.github.io/tag/vegetarian/index.xml" rel="self"/>
- <link href="http://nammasamayal.github.io/tag/vegetarian.html"/>
- <updated>2017-12-15T11:37:53+05:30</updated>
- <id>http://nammasamayal.github.io/tag/vegetarian.html</id>
+ <title>Your Title - south-indian</title>
+ <link href="http://nammasamayal.github.io/tag/south-indian/index.xml" rel="self"/>
+ <link href="http://nammasamayal.github.io/tag/south-indian.html"/>
+ <updated>2017-12-15T11:40:30+05:30</updated>
+ <id>http://nammasamayal.github.io/tag/south-indian.html</id>
  <author>
    <name>Author Here</name>
  </author>
  
  <entry>
    <title>Brinjal Gothsu</title>
-   <link href="http://nammasamayal.github.io/2017/12/15/brinjal-gothsu.html"/>
+   <link href="http://nammasamayal.github.io/recipe/south-indian/chettinad/brinjal/side-dish/2017/12/15/brinjal-gothsu.html"/>
    <updated>2017-12-15T00:00:00+05:30</updated>
-   <id>http://example.com/2017/12/15/brinjal-gothsu</id>
+   <id>http://example.com/recipe/south-indian/chettinad/brinjal/side-dish/2017/12/15/brinjal-gothsu</id>
    <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/images/kathirikai-gothsu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Ingredients&lt;/strong&gt;&lt;/p&gt;
