@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <title>Your Title - side-dish</title>
+ <link href="http://nammasamayal.github.io/tag/side-dish/index.xml" rel="self"/>
+ <link href="http://nammasamayal.github.io/tag/side-dish.html"/>
+ <updated>2017-12-15T11:37:53+05:30</updated>
+ <id>http://nammasamayal.github.io/tag/side-dish.html</id>
+ <author>
+   <name>Author Here</name>
+ </author>
+ 
+ <entry>
+   <title>Brinjal Gothsu</title>
+   <link href="http://nammasamayal.github.io/2017/12/15/brinjal-gothsu.html"/>
+   <updated>2017-12-15T00:00:00+05:30</updated>
+   <id>http://example.com/2017/12/15/brinjal-gothsu</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/assets/images/kathirikai-gothsu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ingredients&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Small purple brinjal chopped - 10 numbers&lt;/li&gt;
+  &lt;li&gt;Onion small chopped - 1 number&lt;/li&gt;
+  &lt;li&gt;Tomato small chopped - 1 number&lt;/li&gt;
+  &lt;li&gt;Green chilly slit - 2 numbers&lt;/li&gt;
+  &lt;li&gt;Garlic cloves sliced - 4 numbers&lt;/li&gt;
+  &lt;li&gt;Tamarind - Gooseberry size&lt;/li&gt;
+  &lt;li&gt;Red chilly powder - 1 tsp&lt;/li&gt;
+  &lt;li&gt;Turmeric powder - 1/4 tsp&lt;/li&gt;
+  &lt;li&gt;Salt to taste&lt;/li&gt;
+  &lt;li&gt;Curry leaves - few&lt;/li&gt;
+  &lt;li&gt;Mustard seeds - 1 tsp&lt;/li&gt;
+  &lt;li&gt;Urad dal - 1 tsp&lt;/li&gt;
+  &lt;li&gt;Asafoetida - 1/4 tsp&lt;/li&gt;
+  &lt;li&gt;Oil - 2 tsp&lt;/li&gt;
+  &lt;li&gt;Water - 1 cup + 1/4 cup&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Method&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Soak gooseberry size tamarind in 1/4 cup water for 10 mins. Extract tamarind pulp, filter and discard residue.&lt;/li&gt;
+  &lt;li&gt;In a vessel add chopped brinjal, chopped onion, chopped tomato, sliced garlic, slit green chilli, tamarind pulp, turmeric powder, red chilli powder, required salt and 1 cup water. Mix well and place vessel inside pressure cooker and pressure cook for 3 whistles or 10 mins.&lt;/li&gt;
+  &lt;li&gt;Heat oil in a pan when hot add mustard seeds, urad dal, curry leaves and asafoetida. When the mustard splutters add to the cooked brinjal gravy and stir well.&lt;/li&gt;
+  &lt;li&gt;Bring Brinjal Gothsu to boil and remove from heat.
+Serve with Venpongal, Idli or Dosa.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
+ 
+</feed>
