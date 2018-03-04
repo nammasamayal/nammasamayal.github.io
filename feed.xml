@@ -1,4 +1,235 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-04T14:59:31+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Review of Seashell Velacherry</title><link href="/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry.html" rel="alternate" type="text/html" title="Review of Seashell Velacherry" /><published>2018-03-02T00:00:00+05:30</published><updated>2018-03-02T00:00:00+05:30</updated><id>/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry</id><content type="html" xml:base="/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry.html">&lt;p&gt;&lt;img src=&quot;https://img-cdn.eveningflavors.com/EvfImages/Restaurant/Chennai/22802/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<script type='text/javascript'>
+  /* global google */
+/* global MarkerClusterer */
+// eslint-disable-next-line no-unused-vars
+var jekyllMaps = (function() {
+  'use strict'
+  var clusterSettings = {}
+  var clusterReady = false
+  var mapReady = false
+  var options = {}
+  var data = []
+  var maps = []
+
+  return {
+    initializeMap: initializeMap,
+    initializeCluster: initializeCluster,
+    register: register
+  }
+
+  /**
+   * Setup Google Maps options and call renderer.
+   */
+  function initializeMap() {
+    options = {
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      center: new google.maps.LatLng(0, 0)
+    }
+    mapReady = true
+    render()
+  }
+
+  /**
+   * Register map data to be rendered once Google Maps API is loaded.
+   *
+   * @param string id
+   * @param Array locations
+   * @param Object settings
+   */
+  function register(id, locations, options) {
+    data.push({ id: id, locations: locations, options: options })
+    render()
+  }
+
+  /**
+   * Render maps data if Google Maps API is loaded.
+   */
+  function render() {
+    if (!mapReady) return
+
+    while (data.length > 0) {
+      var item = data.pop()
+      var bounds = new google.maps.LatLngBounds()
+      var mapOptions = Object.assign({}, options, item.options)
+      var map = new google.maps.Map(
+        document.getElementById(item.id),
+        mapOptions
+      )
+      var infoWindow = new google.maps.InfoWindow()
+      var markers = item.locations.map(createMarker)
+
+      map.fitBounds(bounds)
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        if (this.customZoom) this.setZoom(this.customZoom)
+      })
+      if (mapOptions.useCluster) {
+        maps.push({ map: map, markers: markers })
+        processCluster()
+      }
+    }
+
+    function createMarker(location) {
+      var position = new google.maps.LatLng(
+        location.latitude,
+        location.longitude
+      )
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
+      var marker = new google.maps.Marker({
+        position: position,
+        title: location.title,
+        image: location.image,
+        url: location.url.length > 0 ? mapOptions.baseUrl + location.url : '',
+        map: map
+      })
+      if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
+
+      return marker
+    }
+
+    function markerPopup() {
+      var contentHtml =
+        '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageHtml = '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkText = this.image.length > 0 ? imageHtml : 'View'
+        contentHtml += '<a href="' + this.url + '">' + linkText + '</a></div>'
+      } else if (this.image.length > 0) {
+        contentHtml += imageHtml
+      }
+      infoWindow.setContent(contentHtml)
+      infoWindow.open(map, this)
+    }
+  }
+
+  function initializeCluster(settings) {
+    clusterReady = true
+    clusterSettings = settings || {}
+    processCluster()
+  }
+
+  function processCluster() {
+    if (!clusterReady) return
+
+    while (maps.length > 0) {
+      var obj = maps.pop()
+      // eslint-disable-next-line no-new
+      new MarkerClusterer(obj.map, obj.markers, {
+        gridSize: clusterSettings.grid_size || 25,
+        imagePath:
+          'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'
+      })
+    }
+  }
+})()
+/* Object.assign polyfill */
+if (typeof Object.assign !== 'function') {
+  Object.assign = function(target) {
+    'use strict'
+    if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object')
+    }
+
+    target = Object(target)
+    for (var index = 1; index < arguments.length; index++) {
+      var source = arguments[index]
+      if (source != null) {
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key]
+          }
+        }
+      }
+    }
+    return target
+  }
+}
+
+</script>
+<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB-eXq1626-SHTzKiBKbGnsGqcNPNBAc34&callback=jekyllMaps.initializeMap'></script>
+
+<script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
+        onload='jekyllMaps.initializeCluster({})'></script>
+
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-04T15:00:42+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Nawab Sheikh Palace, Perungudi</title><link href="/2018/03/04/nawab-sheikh-palace-perungudi.html" rel="alternate" type="text/html" title="Nawab Sheikh Palace, Perungudi" /><published>2018-03-04T00:00:00+05:30</published><updated>2018-03-04T00:00:00+05:30</updated><id>/2018/03/04/nawab-sheikh-palace-perungudi</id><content type="html" xml:base="/2018/03/04/nawab-sheikh-palace-perungudi.html">&lt;p&gt;We @ Namma Samayal visited Nawab Sheikh Palace in Perungudi, and these were our observations:&lt;/p&gt;
+
+&lt;h2 id=&quot;small-tables&quot;&gt;Small Tables&lt;/h2&gt;
+
+&lt;p&gt;Two people from Namma Samayal visited there and the first thing we noticed that was the tables were really small. We first picked a table at center and one of us being 6 feet couldn’t fit our leg in.&lt;/p&gt;
+
+&lt;p&gt;We moved to a table in side and that was okay. We noticed that the dining area on table was small. It was probably that the tables were small, that the water jugs were not placed on them. Instead as you drink, if some waiter notices that your tumbler is empty (a bit), he tops it up, and this does not happen regularly as you may wish.&lt;/p&gt;
+
+&lt;h2 id=&quot;bad-mouthed-waiters-and-supervisor&quot;&gt;Bad mouthed waiters and supervisor&lt;/h2&gt;
+
+&lt;p&gt;There were a guy and a girl right next to our table. Looks like they did not finish all on their plate, the waiter who was taking out the plate complained about it after they left. Thats a bad behavior. Waiters should never complain about customers before other customers, particularly if the other customer is a blogger.&lt;/p&gt;
+
+&lt;p&gt;The supervisor too is a person who  was in a bad mood. He shouted at waiter right in the dining area before customers. That too is bad. It gives a feeling that the management is not treating their employees well enough and hence its adding work pressure to them. Would you like to eat in a hotel where the workers are treated bad?&lt;/p&gt;
+
+&lt;h2 id=&quot;hotel-ambiance&quot;&gt;Hotel Ambiance&lt;/h2&gt;
+
+&lt;p&gt;The hotels ambiance is okay, when we went the hotel wasn’t crowded, possibly because of that the noise levels were low. The cooling was good enough, we did not have waiters asking “you want bottled water or ordinary” so that a profit can be made from selling a pricey bottle. Every thing looked neat except the the tissue paper dispenser in the wash room.&lt;/p&gt;
+
+&lt;h2 id=&quot;food&quot;&gt;Food&lt;/h2&gt;
+
+&lt;p&gt;I am mixed about the food, let me tell you why. We ordered these three items&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Half Tandoori Chicken&lt;/li&gt;
+  &lt;li&gt;Nawab Sheik Special Chicken Briyani&lt;/li&gt;
+  &lt;li&gt;Iraqui Briyani (with mutton in it)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tandoori-chicken&quot;&gt;Tandoori Chicken&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/nawab_sheikh_tandoori_chicken.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The tondoori chicken was like tandorri chicken in any other hotel. You can even get a better tasting one in a road side shop, this is not to say that it was bad, it was okay, but nothing special about it. It came with a green chutney and onions sliced.&lt;/p&gt;
+
+&lt;p&gt;Like all hotels, the tandoori had food color added to it, personally we feel that good hotels must concentrate on taste than about looks of food. A true foodie will eat a tandoori thats brown and black rather than one  degraded with red food color.&lt;/p&gt;
+
+&lt;h3 id=&quot;nawab-sheik-special-chicken-briyani&quot;&gt;Nawab Sheik Special Chicken Briyani&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/nawab_sheikh_special_chicken_briyani_2.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This briyani was served a bowl full, the chicken pieces were tiny and was bit spicy compared to the Iraqi briyani we had. It was clearly a designed to be eaten with a spoon, no bones or what so ever was in it. One who is used to bite bones and meat while eating briyani may miss the experience, but this is a high class hotel as per their projection and they feel that customers should be able to eat with spoon and the eating experience should be good.&lt;/p&gt;
+
+&lt;p&gt;The briyani was great, we were able to eat it without side dish. Thats a hallmark of a good briyani, if it glides into you without any side dish, just by its taste, its a good one.&lt;/p&gt;
+
+&lt;h3 id=&quot;iraqi-briyani&quot;&gt;Iraqi Briyani&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/iraqui_briyani.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The Iraqi briyani had small pieces of mutton in it. It too was designed to be eaten with a spoon, it came with a piece of chcicken 65, so there was a biteable size of meat. The Iraqi briyani was less spicy compared to the other briayni, it had been garnished with nuts. It tasted well too, went in without the aid of side dish and we loved the experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;side-dish-for-briyani&quot;&gt;Side dish for briyani&lt;/h3&gt;
+
+&lt;p&gt;The briyani came with three side dishes, one was brinjal preparation, onions in curd or raitha, and a cup with two gulab jamuns. Two people went and we had hard time figuring out weather the gulab jamnuns came with Iraqi briyani or special chicken briyani.&lt;/p&gt;
+
+&lt;p&gt;The brinjal preparation was quiet horrible. It spoiled the taste of briyani and so we left it off, the raitha was okay, but the briayni’s tasted so well, it could go along without raitha.&lt;/p&gt;
+
+&lt;p&gt;If you are a foreigner who can’t eat Indian food, the Raitha will come in handy to reduce the spiciness.&lt;/p&gt;
+
+&lt;p&gt;The gulab jamuns were regular gulab jamuns, nothing special about it.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-mouth-freshener&quot;&gt;The mouth freshener&lt;/h3&gt;
+
+&lt;p&gt;Have you ever come across a food blogger praising a mouth freshener? Well,  here you do. In Nawab Sheikh, if you say there is something worthy Nawabi I would say its the mouth freshener. It was so good. The person who came with me pocketed two of them. That good it was! You may visit the restaurant once for the mouth freshener. Hats off to Nawab for that.&lt;/p&gt;
+
+&lt;h2 id=&quot;in-brief&quot;&gt;In Brief&lt;/h2&gt;
+
+&lt;p&gt;Though, the seating and side dishes are not so good, Nawab Sheikh Palace in Perungudi has good briayni and mouth freshener. An okay place to visit we would say.&lt;/p&gt;
+
+&lt;h2 id=&quot;location-of-nawab-sheikh-palace-perungudi&quot;&gt;Location of Nawab Sheikh Palace Perungudi&lt;/h2&gt;
+
+&lt;div id=&quot;ea4a474d-6b52-4138-b61b-973c8e222ea5&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  jekyllMaps.register(
+    'ea4a474d-6b52-4138-b61b-973c8e222ea5',
+    [{&quot;latitude&quot;:12.9664224,&quot;longitude&quot;:80.2436819,&quot;title&quot;:&quot;Nawab Sheikh Palace Perungudi&quot;,&quot;url&quot;:&quot;/2018/03/04/nawab-sheikh-palace-perungudi.html&quot;,&quot;image&quot;:&quot;&quot;}],
+    {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
+  );
+&lt;/script&gt;</content><author><name></name></author><summary type="html">We @ Namma Samayal visited Nawab Sheikh Palace in Perungudi, and these were our observations:</summary></entry><entry><title type="html">Review of Seashell Velacherry</title><link href="/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry.html" rel="alternate" type="text/html" title="Review of Seashell Velacherry" /><published>2018-03-02T00:00:00+05:30</published><updated>2018-03-02T00:00:00+05:30</updated><id>/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry</id><content type="html" xml:base="/restaurant/review/chennai/velacherry/barbeque/2018/03/02/review-of-seashell-velacherry.html">&lt;p&gt;&lt;img src=&quot;https://img-cdn.eveningflavors.com/EvfImages/Restaurant/Chennai/22802/1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Nammasamayal had been in Sea shell a while ago, and in this blog we wish to talk
 about it.&lt;/p&gt;
