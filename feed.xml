@@ -152,7 +152,7 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-23T14:05:49+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Low-Carb Breakfast Pizza</title><link href="/2018/03/23/low-carb_breakfast_pizza.html" rel="alternate" type="text/html" title="Low-Carb Breakfast Pizza" /><published>2018-03-23T00:00:00+05:30</published><updated>2018-03-23T00:00:00+05:30</updated><id>/2018/03/23/low-carb_breakfast_pizza</id><content type="html" xml:base="/2018/03/23/low-carb_breakfast_pizza.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Low-Carb_Breakfast_Pizza&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-23T21:02:19+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Low-Carb Breakfast Pizza</title><link href="/2018/03/23/low-carb_breakfast_pizza.html" rel="alternate" type="text/html" title="Low-Carb Breakfast Pizza" /><published>2018-03-23T00:00:00+05:30</published><updated>2018-03-23T00:00:00+05:30</updated><id>/2018/03/23/low-carb_breakfast_pizza</id><content type="html" xml:base="/2018/03/23/low-carb_breakfast_pizza.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Low-Carb_Breakfast_Pizza&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
 
@@ -253,10 +253,10 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-nawab-sheikh-palace-perungudi&quot;&gt;Location of Nawab Sheikh Palace Perungudi&lt;/h2&gt;
 
-&lt;div id=&quot;5d9c6cf3-c3e3-48f7-ae1c-d717c85e45f8&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;4c13550c-0e61-4e78-9701-0988b63c2691&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    '5d9c6cf3-c3e3-48f7-ae1c-d717c85e45f8',
+    '4c13550c-0e61-4e78-9701-0988b63c2691',
     [{&quot;latitude&quot;:12.9664224,&quot;longitude&quot;:80.2436819,&quot;title&quot;:&quot;Nawab Sheikh Palace Perungudi&quot;,&quot;url&quot;:&quot;/2018/03/04/nawab-sheikh-palace-perungudi.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
