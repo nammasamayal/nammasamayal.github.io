@@ -152,7 +152,7 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-23T21:04:52+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Low-Carb Breakfast Pizza</title><link href="/2018/03/23/low-carb_breakfast_pizza.html" rel="alternate" type="text/html" title="Low-Carb Breakfast Pizza" /><published>2018-03-23T00:00:00+05:30</published><updated>2018-03-23T00:00:00+05:30</updated><id>/2018/03/23/low-carb_breakfast_pizza</id><content type="html" xml:base="/2018/03/23/low-carb_breakfast_pizza.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Low-Carb_Breakfast_Pizza&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-23T21:53:44+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Low-Carb Breakfast Pizza</title><link href="/2018/03/23/low-carb_breakfast_pizza.html" rel="alternate" type="text/html" title="Low-Carb Breakfast Pizza" /><published>2018-03-23T00:00:00+05:30</published><updated>2018-03-23T00:00:00+05:30</updated><id>/2018/03/23/low-carb_breakfast_pizza</id><content type="html" xml:base="/2018/03/23/low-carb_breakfast_pizza.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Low-Carb_Breakfast_Pizza&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
 
@@ -183,6 +183,26 @@ if (typeof Object.assign !== 'function') {
   &lt;li&gt;Bake until lightly golden, about 12 minutes.&lt;/li&gt;
   &lt;li&gt;Spread pizza sauce on top of baked crust. Top with remaining mozzarella, pepperoni, and bell pepper.&lt;/li&gt;
   &lt;li&gt;Bake until cheese is melted and crust is crispy, about 10 minutes more. Sprinkle with Parmesan, if using, before serving.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Cream Cheese Frosting</title><link href="/2018/03/23/cream_cheese_frosting.html" rel="alternate" type="text/html" title="Cream Cheese Frosting" /><published>2018-03-23T00:00:00+05:30</published><updated>2018-03-23T00:00:00+05:30</updated><id>/2018/03/23/cream_cheese_frosting</id><content type="html" xml:base="/2018/03/23/cream_cheese_frosting.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Cream_Cheese_Frosting&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 tbsp. butter&lt;/li&gt;
+  &lt;li&gt;3 oz. cream cheese&lt;/li&gt;
+  &lt;li&gt;1 1/2 c. powdered sugar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Beat butter and cheese in small bowl with electric mixer until light and fluffy; gradually beat in sifted powdered sugar.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Nawab Sheikh Palace, Perungudi</title><link href="/2018/03/04/nawab-sheikh-palace-perungudi.html" rel="alternate" type="text/html" title="Nawab Sheikh Palace, Perungudi" /><published>2018-03-04T00:00:00+05:30</published><updated>2018-03-04T00:00:00+05:30</updated><id>/2018/03/04/nawab-sheikh-palace-perungudi</id><content type="html" xml:base="/2018/03/04/nawab-sheikh-palace-perungudi.html">&lt;p&gt;We @ Namma Samayal visited Nawab Sheikh Palace in Perungudi, and these were our observations:&lt;/p&gt;
 
 &lt;h2 id=&quot;small-tables&quot;&gt;Small Tables&lt;/h2&gt;
@@ -253,10 +273,10 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-nawab-sheikh-palace-perungudi&quot;&gt;Location of Nawab Sheikh Palace Perungudi&lt;/h2&gt;
 
-&lt;div id=&quot;2a5b27c7-14a0-48c0-8c2c-ea842dd2bd57&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;0fbd7048-d31f-4ee1-90a9-34ee8160fc64&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    '2a5b27c7-14a0-48c0-8c2c-ea842dd2bd57',
+    '0fbd7048-d31f-4ee1-90a9-34ee8160fc64',
     [{&quot;latitude&quot;:12.9664224,&quot;longitude&quot;:80.2436819,&quot;title&quot;:&quot;Nawab Sheikh Palace Perungudi&quot;,&quot;url&quot;:&quot;/2018/03/04/nawab-sheikh-palace-perungudi.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
@@ -526,24 +546,4 @@ Here we have a modified version of Dumpukht for your conviniance.&lt;/p&gt;
 
 &lt;p&gt;Now, add honey and black pepper whole and fill chicken with the rice.&lt;/p&gt;
 
-&lt;p&gt;Preheat oven 200 degree and bake chicken for 40 minutes.&lt;/p&gt;</content><author><name></name></author><category term="recipe" /><category term="boluch" /><category term="chicken" /><summary type="html"></summary></entry><entry><title type="html">A.R.Rahman Briyani is not as good as before</title><link href="/briyani/restaurant/review/chennai/medavakkam/2017/12/13/A-R-Rahman-Briyani-is-not-as-good-as-before.html" rel="alternate" type="text/html" title="A.R.Rahman Briyani is not as good as before" /><published>2017-12-13T00:00:00+05:30</published><updated>2017-12-13T00:00:00+05:30</updated><id>/briyani/restaurant/review/chennai/medavakkam/2017/12/13/A-R-Rahman-Briyani-is-not-as-good-as-before</id><content type="html" xml:base="/briyani/restaurant/review/chennai/medavakkam/2017/12/13/A-R-Rahman-Briyani-is-not-as-good-as-before.html">&lt;p&gt;&lt;img src=&quot;/assets/images/a-r-rahman-biriyani-medavakkam.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;This is Namma Samayal’s experience with A.R.Rahman briyani. We were dining
-in Medavakkam restaurant for a long time, the quality used to be near perfect,
-but now it has dropped significantly. Notably the amount of meat in chicken
-briyani has dropped significantly.&lt;/p&gt;
-
-&lt;p&gt;Before a chicken briyani used to have nice two huge pieces of meat that was
-copious. When we ate we used to have meat in almost every bite, now the meat
-has dropped just to  one piece and mostly its the leg piece with little meat
-attached to it.&lt;/p&gt;
-
-&lt;p&gt;When A.R Rahman opened in Medavakkam, it was the place to go, but now it has
-become just another restaurant which serves just another medium quality briyani
-with very less meat.&lt;/p&gt;
-
-&lt;p&gt;Its quiet sad that restaurant we cherished for briyani has become like this.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Reference&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://medium.com/@karthik_ak/a-r-rahman-briyani-is-good-3ba73621bc32&quot;&gt;A.R.Rahman Briyani is good&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><category term="restaurant" /><category term="briyani" /><category term="review" /><category term="chennai" /><category term="medavakkam" /><summary type="html"></summary></entry></feed>
+&lt;p&gt;Preheat oven 200 degree and bake chicken for 40 minutes.&lt;/p&gt;</content><author><name></name></author><category term="recipe" /><category term="boluch" /><category term="chicken" /><summary type="html"></summary></entry></feed>
