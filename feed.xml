@@ -152,7 +152,38 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-24T10:14:53+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Lemon Poppy Seed Cake</title><link href="/2018/03/24/lemon_poppy_seed_cake.html" rel="alternate" type="text/html" title="Lemon Poppy Seed Cake" /><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><id>/2018/03/24/lemon_poppy_seed_cake</id><content type="html" xml:base="/2018/03/24/lemon_poppy_seed_cake.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Lemon_Poppy_Seed_Cake&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-03-27T10:17:12+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">40 Cloves of Garlic Chicken</title><link href="/2018/03/27/40_cloves_of_garlic_chicken.html" rel="alternate" type="text/html" title="40 Cloves of Garlic Chicken" /><published>2018-03-27T00:00:00+05:30</published><updated>2018-03-27T00:00:00+05:30</updated><id>/2018/03/27/40_cloves_of_garlic_chicken</id><content type="html" xml:base="/2018/03/27/40_cloves_of_garlic_chicken.html">&lt;p&gt;&lt;img src=&quot;/assets/images/40_Cloves_of_Garlic_Chicken&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;1 tbsp. extra-virgin olive oil&lt;/li&gt;
+  &lt;li&gt;2 lb. bone-in skin-on chicken thighs&lt;/li&gt;
+  &lt;li&gt;kosher salt&lt;/li&gt;
+  &lt;li&gt;Freshly ground black pepper&lt;/li&gt;
+  &lt;li&gt;40 garlic cloves, peeled&lt;/li&gt;
+  &lt;li&gt;1 c. dry white wine&lt;/li&gt;
+  &lt;li&gt;1 1/2 c. low-sodium chicken broth&lt;/li&gt;
+  &lt;li&gt;2 tbsp. unsalted butter&lt;/li&gt;
+  &lt;li&gt;1/4 c. heavy cream&lt;/li&gt;
+  &lt;li&gt;12 oz. penne&lt;/li&gt;
+  &lt;li&gt;1/4 c. chopped parsley&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt; 0:40&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt; 0:20&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 4&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In a large skillet over medium-high heat, warm oil. Dry chicken thighs with paper towels and season with salt and pepper. Sear chicken skin side down until brown, 5 minutes. Flip over and cook for 1 minute more, then transfer to a plate skin side up.&lt;/li&gt;
+  &lt;li&gt;Add garlic and cook for 5 minutes over medium heat. Stir in wine and broth, using a wooden spoon to scrape up the brown bits. Season with salt and pepper and add chicken, skin side up. Bring to a boil and simmer on low until chicken is cooked through and sauce is thickened, 20 minutes. Stir in butter and heavy cream.&lt;/li&gt;
+  &lt;li&gt;Meanwhile, in a large pot of salted boiling water, cook pasta according to package directions until al dente. Drain, reserving 1/2 cup pasta water.&lt;/li&gt;
+  &lt;li&gt;Transfer penne, pasta water, and parsley into the pan and mix well. Add chicken  and serve immediately.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Lemon Poppy Seed Cake</title><link href="/2018/03/24/lemon_poppy_seed_cake.html" rel="alternate" type="text/html" title="Lemon Poppy Seed Cake" /><published>2018-03-24T00:00:00+05:30</published><updated>2018-03-24T00:00:00+05:30</updated><id>/2018/03/24/lemon_poppy_seed_cake</id><content type="html" xml:base="/2018/03/24/lemon_poppy_seed_cake.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Lemon_Poppy_Seed_Cake&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
 
@@ -356,10 +387,10 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-nawab-sheikh-palace-perungudi&quot;&gt;Location of Nawab Sheikh Palace Perungudi&lt;/h2&gt;
 
-&lt;div id=&quot;fb957ff4-13db-4586-89fd-fc66e84e0edc&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;03fbb28e-a490-4877-95e3-3df27d24a0c2&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    'fb957ff4-13db-4586-89fd-fc66e84e0edc',
+    '03fbb28e-a490-4877-95e3-3df27d24a0c2',
     [{&quot;latitude&quot;:12.9664224,&quot;longitude&quot;:80.2436819,&quot;title&quot;:&quot;Nawab Sheikh Palace Perungudi&quot;,&quot;url&quot;:&quot;/2018/03/04/nawab-sheikh-palace-perungudi.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
@@ -523,34 +554,4 @@ people know by commenting.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://articles.mercola.com/sites/articles/archive/2011/02/24/are-you-or-your-family-eating-toxic-food-dyes.aspx&quot;&gt;Are You or Your Family Eating Toxic Food Dyes?&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><category term="tandoori" /><category term="cooking" /><summary type="html"></summary></entry><entry><title type="html">Brinjal Gothsu</title><link href="/recipe/south-indian/chettinad/brinjal/side-dish/2017/12/15/brinjal-gothsu.html" rel="alternate" type="text/html" title="Brinjal Gothsu" /><published>2017-12-15T00:00:00+05:30</published><updated>2017-12-15T00:00:00+05:30</updated><id>/recipe/south-indian/chettinad/brinjal/side-dish/2017/12/15/brinjal-gothsu</id><content type="html" xml:base="/recipe/south-indian/chettinad/brinjal/side-dish/2017/12/15/brinjal-gothsu.html">&lt;p&gt;&lt;img src=&quot;/assets/images/kathirikai-gothsu.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Ingredients&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Small purple brinjal chopped - 10 numbers&lt;/li&gt;
-  &lt;li&gt;Onion small chopped - 1 number&lt;/li&gt;
-  &lt;li&gt;Tomato small chopped - 1 number&lt;/li&gt;
-  &lt;li&gt;Green chilly slit - 2 numbers&lt;/li&gt;
-  &lt;li&gt;Garlic cloves sliced - 4 numbers&lt;/li&gt;
-  &lt;li&gt;Tamarind - Gooseberry size&lt;/li&gt;
-  &lt;li&gt;Red chilly powder - 1 tsp&lt;/li&gt;
-  &lt;li&gt;Turmeric powder - 1/4 tsp&lt;/li&gt;
-  &lt;li&gt;Salt to taste&lt;/li&gt;
-  &lt;li&gt;Curry leaves - few&lt;/li&gt;
-  &lt;li&gt;Mustard seeds - 1 tsp&lt;/li&gt;
-  &lt;li&gt;Urad dal - 1 tsp&lt;/li&gt;
-  &lt;li&gt;Asafoetida - 1/4 tsp&lt;/li&gt;
-  &lt;li&gt;Oil - 2 tsp&lt;/li&gt;
-  &lt;li&gt;Water - 1 cup + 1/4 cup&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Method&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;Soak gooseberry size tamarind in 1/4 cup water for 10 mins. Extract tamarind pulp, filter and discard residue.&lt;/li&gt;
-  &lt;li&gt;In a vessel add chopped brinjal, chopped onion, chopped tomato, sliced garlic, slit green chilli, tamarind pulp, turmeric powder, red chilli powder, required salt and 1 cup water. Mix well and place vessel inside pressure cooker and pressure cook for 3 whistles or 10 mins.&lt;/li&gt;
-  &lt;li&gt;Heat oil in a pan when hot add mustard seeds, urad dal, curry leaves and asafoetida. When the mustard splutters add to the cooked brinjal gravy and stir well.&lt;/li&gt;
-  &lt;li&gt;Bring Brinjal Gothsu to boil and remove from heat.
-Serve with Venpongal, Idli or Dosa.&lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><category term="recipe" /><category term="chettinad" /><category term="south-indian" /><category term="brinjal" /><category term="side-dish" /><summary type="html"></summary></entry></feed>
+&lt;/ul&gt;</content><author><name></name></author><category term="tandoori" /><category term="cooking" /><summary type="html"></summary></entry></feed>
