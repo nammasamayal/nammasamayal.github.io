@@ -152,7 +152,7 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-04T08:51:55+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Fall of Al Azmeer, Velacherry?</title><link href="/2018/04/04/fall-of-al-azmeer-velacherry.html" rel="alternate" type="text/html" title="Fall of Al Azmeer, Velacherry?" /><published>2018-04-04T08:20:00+05:30</published><updated>2018-04-04T08:20:00+05:30</updated><id>/2018/04/04/fall-of-al-azmeer-velacherry</id><content type="html" xml:base="/2018/04/04/fall-of-al-azmeer-velacherry.html">&lt;p&gt;&lt;img src=&quot;/assets/images/al_azmeer_velacherry.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-04T14:05:00+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Fall of Al Azmeer, Velacherry?</title><link href="/2018/04/04/fall-of-al-azmeer-velacherry.html" rel="alternate" type="text/html" title="Fall of Al Azmeer, Velacherry?" /><published>2018-04-04T08:20:00+05:30</published><updated>2018-04-04T08:20:00+05:30</updated><id>/2018/04/04/fall-of-al-azmeer-velacherry</id><content type="html" xml:base="/2018/04/04/fall-of-al-azmeer-velacherry.html">&lt;p&gt;&lt;img src=&quot;/assets/images/al_azmeer_velacherry.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Restaurant Al Azmeer is in Velacherry is near our office (which is  essentially the base of Namma Samayal). We frequent it often, the restaurant was okay according to us. Our favorite was policha kozhi with kushka.&lt;/p&gt;
 
@@ -168,14 +168,50 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-al-azmeer-velacherry&quot;&gt;Location of Al Azmeer, Velacherry&lt;/h2&gt;
 
-&lt;div id=&quot;79d53c88-507d-4c12-9600-e57ac80fc9ab&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;776be9e5-15fe-4b8c-b1e5-356ed4fc6683&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    '79d53c88-507d-4c12-9600-e57ac80fc9ab',
+    '776be9e5-15fe-4b8c-b1e5-356ed4fc6683',
     [{&quot;latitude&quot;:12.9743768,&quot;longitude&quot;:80.2173919,&quot;title&quot;:&quot;Al Azmeer&quot;,&quot;url&quot;:&quot;/2018/04/04/fall-of-al-azmeer-velacherry.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
-&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Karachi Halwa Recipe</title><link href="/2018/04/03/karachi_halwa_recipe_-1.html" rel="alternate" type="text/html" title="Karachi Halwa  Recipe" /><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><id>/2018/04/03/karachi_halwa_recipe_-1</id><content type="html" xml:base="/2018/04/03/karachi_halwa_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Karachi_Halwa_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">White Pasta Salad Recipe</title><link href="/2018/04/04/white_pasta_salad_recipe_-1.html" rel="alternate" type="text/html" title="White Pasta Salad  Recipe" /><published>2018-04-04T00:00:00+05:30</published><updated>2018-04-04T00:00:00+05:30</updated><id>/2018/04/04/white_pasta_salad_recipe_-1</id><content type="html" xml:base="/2018/04/04/white_pasta_salad_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/White_Pasta_Salad_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Smooth pasta ribbons smothered in a rich and creamy white sauce.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chef:&lt;/strong&gt;  Manju Malhi&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recipe Servings:&lt;/strong&gt;  2&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cook Time:&lt;/strong&gt;   25 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Cook Time:&lt;/strong&gt;   25 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulty Level:&lt;/strong&gt;  Easy&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;200 gm taglietti pasta, boiled with a pinch of salt and 1 tsp olive oil till al dente&lt;/li&gt;
+  &lt;li&gt;For the White Sauce:&lt;/li&gt;
+  &lt;li&gt;4 Tbsp butter&lt;/li&gt;
+  &lt;li&gt;1 cup flour&lt;/li&gt;
+  &lt;li&gt;3/4th cup cream&lt;/li&gt;
+  &lt;li&gt;Salt, to taste&lt;/li&gt;
+  &lt;li&gt;Black pepper, to taste&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Boil the pasta. Drain and keep aside.&lt;/li&gt;
+  &lt;li&gt;In a pan add butter. Once it melts add the flour and mix continuously without forming lumps. Saute for 2 minutes.&lt;/li&gt;
+  &lt;li&gt;Add cream, salt and pepper. Mix thoroughly.&lt;/li&gt;
+  &lt;li&gt;Add the boiled pasta. Mix well.&lt;/li&gt;
+  &lt;li&gt;Serve.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Karachi Halwa Recipe</title><link href="/2018/04/03/karachi_halwa_recipe_-1.html" rel="alternate" type="text/html" title="Karachi Halwa  Recipe" /><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><id>/2018/04/03/karachi_halwa_recipe_-1</id><content type="html" xml:base="/2018/04/03/karachi_halwa_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Karachi_Halwa_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Karachi halwa is a chewy Indian dessert loaded with the goodness of almonds, pistachios and other dry fruits.&lt;/p&gt;
 
@@ -437,37 +473,4 @@ if (typeof Object.assign !== 'function') {
   &lt;li&gt;In a large bowl using a hand mixer or in the bowl of a stand mixer using the whisk attachment, beat cream cheese on medium, scraping down bowl as necessary, until completely smooth, 3 to 4 minutes. Add sugar and salt and beat, scraping down bowl as necessary, until smooth and fluffy, 3 to 4 minutes. Add vanilla and beat for 30 seconds. Add eggs, 1 at a time, beating for 1 minute after each addition and scraping down bowl as necessary. Add melted white chocolate, sour cream, and heavy cream and beat on low until fully incorporated and completely smooth, about 1 minute.&lt;/li&gt;
   &lt;li&gt;Pour cheesecake batter into cooled crust and smooth top. Drop teaspoons of raspberry sauce all over top of cheesecake. Use a wooden skewer or toothpick to swirl sauce into batter. Place cheesecake in deep roasting pan and set on middle rack of oven. Carefully pour enough boiling water into roasting pan to come about halfway up sides of springform pan. Bake until top is just starting to brown and crack, about 1 hour and 30 minutes. Turn off oven, prop door open with wooden spoon, and let cheesecake slowly cool in water bath for 1 hour.&lt;/li&gt;
   &lt;li&gt;Remove roasting pan from oven, then carefully lift springform pan out of water and remove foil. Set cheesecake on a rack and let come to room temperature. Once completely cool, loosely cover cheesecake with plastic wrap and refrigerate, 4 hours, or preferably overnight. When ready to serve, carefully remove sides of springform pan.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Cheesy Tomato Soup</title><link href="/2018/03/29/cheesy_tomato_soup.html" rel="alternate" type="text/html" title="Cheesy Tomato Soup" /><published>2018-03-29T00:00:00+05:30</published><updated>2018-03-29T00:00:00+05:30</updated><id>/2018/03/29/cheesy_tomato_soup</id><content type="html" xml:base="/2018/03/29/cheesy_tomato_soup.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Cheesy_Tomato_Soup&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3 tbsp. unsalted butter&lt;/li&gt;
-  &lt;li&gt;1 small French baguette, sliced&lt;/li&gt;
-  &lt;li&gt;1 onion, chopped&lt;/li&gt;
-  &lt;li&gt;1 Garlic clove, minced&lt;/li&gt;
-  &lt;li&gt;2 carrots, chopped&lt;/li&gt;
-  &lt;li&gt;2 celery stalks, chopped&lt;/li&gt;
-  &lt;li&gt;28 oz. crushed tomatoes&lt;/li&gt;
-  &lt;li&gt;3 c. vegetable stock&lt;/li&gt;
-  &lt;li&gt;kosher salt&lt;/li&gt;
-  &lt;li&gt;Black pepper&lt;/li&gt;
-  &lt;li&gt;1/4 c. heavy cream&lt;/li&gt;
-  &lt;li&gt;2 c. grated Gruyere cheese&lt;/li&gt;
-  &lt;li&gt;1/4 c. fresh parsley, chopped&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt; 0:35&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt; 0:10&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 4&lt;/p&gt;
-
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Preheat oven to 400 degrees F. Spread bread with 2 tablespoons butter. On a large baking sheet, toast bread until golden, 2 minutes; set aside.&lt;/li&gt;
-  &lt;li&gt;Meanwhile, melt remaining tablespoon butter in a large pot over medium heat. Add onion, garlic, carrots, and celery and cook until tender, 2 to 3 minutes. Add tomatoes, stock, 1 teaspoon salt, and 1/2 teaspoon black pepper. Bring to a boil and simmer 15 minutes. Puree soup using an immersion blender or carefully pour into a blender and process in batches. Stir in cream.&lt;/li&gt;
-  &lt;li&gt;Place four ovenproof soup bowls or ramekins onto a sheet pan. Divide soup among bowls and top each with 2 croutons and 1/2 cup cheese. Cook until cheese is melted and bubbling, about 5 minutes.&lt;/li&gt;
-  &lt;li&gt;Garnish with parsley and serve immediately.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
