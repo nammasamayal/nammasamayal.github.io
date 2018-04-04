@@ -152,7 +152,59 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-04T14:05:00+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Fall of Al Azmeer, Velacherry?</title><link href="/2018/04/04/fall-of-al-azmeer-velacherry.html" rel="alternate" type="text/html" title="Fall of Al Azmeer, Velacherry?" /><published>2018-04-04T08:20:00+05:30</published><updated>2018-04-04T08:20:00+05:30</updated><id>/2018/04/04/fall-of-al-azmeer-velacherry</id><content type="html" xml:base="/2018/04/04/fall-of-al-azmeer-velacherry.html">&lt;p&gt;&lt;img src=&quot;/assets/images/al_azmeer_velacherry.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-05T01:54:57+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Chettinad Fish Fry Recipe</title><link href="/2018/04/05/chettinad_fish_fry_recipe_-1.html" rel="alternate" type="text/html" title="Chettinad Fish Fry  Recipe" /><published>2018-04-05T00:00:00+05:30</published><updated>2018-04-05T00:00:00+05:30</updated><id>/2018/04/05/chettinad_fish_fry_recipe_-1</id><content type="html" xml:base="/2018/04/05/chettinad_fish_fry_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Chettinad_Fish_Fry_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Surmai fish pieces marinated in a delectable masala, pan fried till crisp.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chef:&lt;/strong&gt;  Aditya Bal&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recipe Servings:&lt;/strong&gt;  4&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt;   10 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cook Time:&lt;/strong&gt;   40 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Cook Time:&lt;/strong&gt;   50 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulty Level:&lt;/strong&gt;  Easy&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 fillets surmai (King fish)&lt;/li&gt;
+  &lt;li&gt;2 Tbsp oil, to pan fry&lt;/li&gt;
+  &lt;li&gt;For the marination:&lt;/li&gt;
+  &lt;li&gt;7-8 cloves garlic&lt;/li&gt;
+  &lt;li&gt;1 knob ginger, mashed&lt;/li&gt;
+  &lt;li&gt;1 tsp cumin&lt;/li&gt;
+  &lt;li&gt;1 tsp fennel&lt;/li&gt;
+  &lt;li&gt;2 tsp coriander seeds&lt;/li&gt;
+  &lt;li&gt;2 tsp black peppercorns&lt;/li&gt;
+  &lt;li&gt;1/2 tsp mustard seeds&lt;/li&gt;
+  &lt;li&gt;9-10 curry leaves&lt;/li&gt;
+  &lt;li&gt;Salt, to taste&lt;/li&gt;
+  &lt;li&gt;1 tsp oil, to grind&lt;/li&gt;
+  &lt;li&gt;1 Tbsp water&lt;/li&gt;
+  &lt;li&gt;1/2 tomato, chopped&lt;/li&gt;
+  &lt;li&gt;1 Tbsp water&lt;/li&gt;
+  &lt;li&gt;1 tsp red chilli powder&lt;/li&gt;
+  &lt;li&gt;2 tsp turmeric powder&lt;/li&gt;
+  &lt;li&gt;5 tsp tamarind extract&lt;/li&gt;
+  &lt;li&gt;1 Tbsp cornflour, to sprinkle&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cut the fish fillets into equal medium sized pieces.&lt;/li&gt;
+  &lt;li&gt;In a pan, dry roast garlic, ginger, cumin, fennel, coriander seeds, black peppercorns, mustard seeds and curry leaves.&lt;/li&gt;
+  &lt;li&gt;Pound them in a mortar and pestle. Add a little salt, oil and water to help in the procedure.&lt;/li&gt;
+  &lt;li&gt;Now add the chopped tomato, turmeric powder, red chili powder, salt and tamarind extract.&lt;/li&gt;
+  &lt;li&gt;Pound them together till pulp like and spread it over the fish pieces.&lt;/li&gt;
+  &lt;li&gt;Sprinkle some cornflour over the fish. The cornflour helps the masala to stick&lt;/li&gt;
+  &lt;li&gt;Marinate the fish and keep in the fridge for 15-20 minutes.&lt;/li&gt;
+  &lt;li&gt;In a pan, fry the fish with the refined oil and serve hot.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Fall of Al Azmeer, Velacherry?</title><link href="/2018/04/04/fall-of-al-azmeer-velacherry.html" rel="alternate" type="text/html" title="Fall of Al Azmeer, Velacherry?" /><published>2018-04-04T08:20:00+05:30</published><updated>2018-04-04T08:20:00+05:30</updated><id>/2018/04/04/fall-of-al-azmeer-velacherry</id><content type="html" xml:base="/2018/04/04/fall-of-al-azmeer-velacherry.html">&lt;p&gt;&lt;img src=&quot;/assets/images/al_azmeer_velacherry.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Restaurant Al Azmeer is in Velacherry is near our office (which is  essentially the base of Namma Samayal). We frequent it often, the restaurant was okay according to us. Our favorite was policha kozhi with kushka.&lt;/p&gt;
 
@@ -168,10 +220,10 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-al-azmeer-velacherry&quot;&gt;Location of Al Azmeer, Velacherry&lt;/h2&gt;
 
-&lt;div id=&quot;776be9e5-15fe-4b8c-b1e5-356ed4fc6683&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;6df4f91b-d3e6-4e06-bde3-b065e23c355f&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    '776be9e5-15fe-4b8c-b1e5-356ed4fc6683',
+    '6df4f91b-d3e6-4e06-bde3-b065e23c355f',
     [{&quot;latitude&quot;:12.9743768,&quot;longitude&quot;:80.2173919,&quot;title&quot;:&quot;Al Azmeer&quot;,&quot;url&quot;:&quot;/2018/04/04/fall-of-al-azmeer-velacherry.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
@@ -422,55 +474,4 @@ if (typeof Object.assign !== 'function') {
   &lt;li&gt;Now add in anchovies and cook for 5 to 10 mins.&lt;/li&gt;
   &lt;li&gt;Throw in a handful of curry leaves and switch off the flame. Cover the pan till serving.&lt;/li&gt;
   &lt;li&gt;Serve over rice.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">White Chocolate Cheesecake with Raspberry Swirl</title><link href="/2018/03/30/white_chocolate_cheesecake_with_raspberry_swirl.html" rel="alternate" type="text/html" title="White Chocolate Cheesecake with Raspberry Swirl" /><published>2018-03-30T00:00:00+05:30</published><updated>2018-03-30T00:00:00+05:30</updated><id>/2018/03/30/white_chocolate_cheesecake_with_raspberry_swirl</id><content type="html" xml:base="/2018/03/30/white_chocolate_cheesecake_with_raspberry_swirl.html">&lt;p&gt;&lt;img src=&quot;/assets/images/White_Chocolate_Cheesecake_with_Raspberry_Swirl&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
-
-&lt;h3 id=&quot;for-the-crust&quot;&gt;For the crust&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;15 graham crackers&lt;/li&gt;
-  &lt;li&gt;3 tbsp. sugar&lt;/li&gt;
-  &lt;li&gt;1/8 tsp. kosher salt&lt;/li&gt;
-  &lt;li&gt;4 tbsp. butter, melted&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;for-the-raspberry-sauce&quot;&gt;For the raspberry sauce&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;6 oz. raspberries&lt;/li&gt;
-  &lt;li&gt;3 tbsp. sugar&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;for-the-cheesecake&quot;&gt;For the cheesecake&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;8 oz. white chocolate, melted&lt;/li&gt;
-  &lt;li&gt;4 8-oz. packages cream cheese, at room temperature&lt;/li&gt;
-  &lt;li&gt;1 1/4 c. sugar&lt;/li&gt;
-  &lt;li&gt;1/2 tsp. kosher salt&lt;/li&gt;
-  &lt;li&gt;1 tbsp. pure vanilla extract&lt;/li&gt;
-  &lt;li&gt;4 large eggs, at room temperature&lt;/li&gt;
-  &lt;li&gt;3/4 c. sour cream&lt;/li&gt;
-  &lt;li&gt;1/2 c. heavy cream&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt; 7:10&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt; 0:40&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 1&lt;/p&gt;
-
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Make the crust: Butter a 9” springform pan and wrap bottom and sides of pan in double layer of aluminum foil. Set rack in middle of oven and preheat oven to 350°.&lt;/li&gt;
-  &lt;li&gt;In food processor or blender, grind graham crackers into fine crumbs. Add sugar and salt and pulse to combine. Transfer to medium bowl, add butter, and use fork or fingers to blend mixture until crumbs are evenly moist. Press into bottom and about a third of the way up sides of springform pan, then freeze pan, 10 minutes.&lt;/li&gt;
-  &lt;li&gt;Place pan on baking sheet and bake crust, 10 minutes. Set on rack to cool and reduce oven temperature to 325°.&lt;/li&gt;
-  &lt;li&gt;Make the raspberry sauce: In food processor or blender, purée berries and sugar until smooth, about 30 seconds. Pour through fine-mesh strainer set over small bowl, pushing on berries to release any juices; discard solids. Set aside.&lt;/li&gt;
-  &lt;li&gt;Make the cheesecake: Bring medium saucepan or tea kettle full of water to boil.&lt;/li&gt;
-  &lt;li&gt;In a clean, dry metal bowl set over a pan of barely simmering water, melt white chocolate, stirring until smooth. Remove from heat and set aside to cool.&lt;/li&gt;
-  &lt;li&gt;In a large bowl using a hand mixer or in the bowl of a stand mixer using the whisk attachment, beat cream cheese on medium, scraping down bowl as necessary, until completely smooth, 3 to 4 minutes. Add sugar and salt and beat, scraping down bowl as necessary, until smooth and fluffy, 3 to 4 minutes. Add vanilla and beat for 30 seconds. Add eggs, 1 at a time, beating for 1 minute after each addition and scraping down bowl as necessary. Add melted white chocolate, sour cream, and heavy cream and beat on low until fully incorporated and completely smooth, about 1 minute.&lt;/li&gt;
-  &lt;li&gt;Pour cheesecake batter into cooled crust and smooth top. Drop teaspoons of raspberry sauce all over top of cheesecake. Use a wooden skewer or toothpick to swirl sauce into batter. Place cheesecake in deep roasting pan and set on middle rack of oven. Carefully pour enough boiling water into roasting pan to come about halfway up sides of springform pan. Bake until top is just starting to brown and crack, about 1 hour and 30 minutes. Turn off oven, prop door open with wooden spoon, and let cheesecake slowly cool in water bath for 1 hour.&lt;/li&gt;
-  &lt;li&gt;Remove roasting pan from oven, then carefully lift springform pan out of water and remove foil. Set cheesecake on a rack and let come to room temperature. Once completely cool, loosely cover cheesecake with plastic wrap and refrigerate, 4 hours, or preferably overnight. When ready to serve, carefully remove sides of springform pan.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
