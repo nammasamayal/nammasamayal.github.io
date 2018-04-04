@@ -1,4 +1,181 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-03T23:47:25+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Karachi Halwa Recipe</title><link href="/2018/04/03/karachi_halwa_recipe_-1.html" rel="alternate" type="text/html" title="Karachi Halwa  Recipe" /><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><id>/2018/04/03/karachi_halwa_recipe_-1</id><content type="html" xml:base="/2018/04/03/karachi_halwa_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Karachi_Halwa_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<script type='text/javascript'>
+  /* global google */
+/* global MarkerClusterer */
+// eslint-disable-next-line no-unused-vars
+var jekyllMaps = (function() {
+  'use strict'
+  var clusterSettings = {}
+  var clusterReady = false
+  var mapReady = false
+  var options = {}
+  var data = []
+  var maps = []
+
+  return {
+    initializeMap: initializeMap,
+    initializeCluster: initializeCluster,
+    register: register
+  }
+
+  /**
+   * Setup Google Maps options and call renderer.
+   */
+  function initializeMap() {
+    options = {
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      center: new google.maps.LatLng(0, 0)
+    }
+    mapReady = true
+    render()
+  }
+
+  /**
+   * Register map data to be rendered once Google Maps API is loaded.
+   *
+   * @param string id
+   * @param Array locations
+   * @param Object settings
+   */
+  function register(id, locations, options) {
+    data.push({ id: id, locations: locations, options: options })
+    render()
+  }
+
+  /**
+   * Render maps data if Google Maps API is loaded.
+   */
+  function render() {
+    if (!mapReady) return
+
+    while (data.length > 0) {
+      var item = data.pop()
+      var bounds = new google.maps.LatLngBounds()
+      var mapOptions = Object.assign({}, options, item.options)
+      var map = new google.maps.Map(
+        document.getElementById(item.id),
+        mapOptions
+      )
+      var infoWindow = new google.maps.InfoWindow()
+      var markers = item.locations.map(createMarker)
+
+      map.fitBounds(bounds)
+      google.maps.event.addListenerOnce(map, 'idle', function() {
+        if (this.customZoom) this.setZoom(this.customZoom)
+      })
+      if (mapOptions.useCluster) {
+        maps.push({ map: map, markers: markers })
+        processCluster()
+      }
+    }
+
+    function createMarker(location) {
+      var position = new google.maps.LatLng(
+        location.latitude,
+        location.longitude
+      )
+      bounds.extend(position)
+      if (!mapOptions.showMarker) return false
+
+      var marker = new google.maps.Marker({
+        position: position,
+        title: location.title,
+        image: location.image,
+        url: location.url.length > 0 ? mapOptions.baseUrl + location.url : '',
+        map: map
+      })
+      if (mapOptions.showMarkerPopup) marker.addListener('click', markerPopup)
+
+      return marker
+    }
+
+    function markerPopup() {
+      var contentHtml =
+        '<div class="map-info-window"><h5>' + this.title + '</h5>'
+      var imageHtml = '<img src="' + this.image + '" alt="' + this.title + '"/>'
+      if (this.url.length > 0) {
+        var linkText = this.image.length > 0 ? imageHtml : 'View'
+        contentHtml += '<a href="' + this.url + '">' + linkText + '</a></div>'
+      } else if (this.image.length > 0) {
+        contentHtml += imageHtml
+      }
+      infoWindow.setContent(contentHtml)
+      infoWindow.open(map, this)
+    }
+  }
+
+  function initializeCluster(settings) {
+    clusterReady = true
+    clusterSettings = settings || {}
+    processCluster()
+  }
+
+  function processCluster() {
+    if (!clusterReady) return
+
+    while (maps.length > 0) {
+      var obj = maps.pop()
+      // eslint-disable-next-line no-new
+      new MarkerClusterer(obj.map, obj.markers, {
+        gridSize: clusterSettings.grid_size || 25,
+        imagePath:
+          'https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/images/m'
+      })
+    }
+  }
+})()
+/* Object.assign polyfill */
+if (typeof Object.assign !== 'function') {
+  Object.assign = function(target) {
+    'use strict'
+    if (target == null) {
+      throw new TypeError('Cannot convert undefined or null to object')
+    }
+
+    target = Object(target)
+    for (var index = 1; index < arguments.length; index++) {
+      var source = arguments[index]
+      if (source != null) {
+        for (var key in source) {
+          if (Object.prototype.hasOwnProperty.call(source, key)) {
+            target[key] = source[key]
+          }
+        }
+      }
+    }
+    return target
+  }
+}
+
+</script>
+<script async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyB-eXq1626-SHTzKiBKbGnsGqcNPNBAc34&callback=jekyllMaps.initializeMap'></script>
+
+<script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
+        onload='jekyllMaps.initializeCluster({})'></script>
+
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-04T08:51:55+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Fall of Al Azmeer, Velacherry?</title><link href="/2018/04/04/fall-of-al-azmeer-velacherry.html" rel="alternate" type="text/html" title="Fall of Al Azmeer, Velacherry?" /><published>2018-04-04T08:20:00+05:30</published><updated>2018-04-04T08:20:00+05:30</updated><id>/2018/04/04/fall-of-al-azmeer-velacherry</id><content type="html" xml:base="/2018/04/04/fall-of-al-azmeer-velacherry.html">&lt;p&gt;&lt;img src=&quot;/assets/images/al_azmeer_velacherry.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Restaurant Al Azmeer is in Velacherry is near our office (which is  essentially the base of Namma Samayal). We frequent it often, the restaurant was okay according to us. Our favorite was policha kozhi with kushka.&lt;/p&gt;
+
+&lt;p&gt;You can’t say that the restaurant was very good enough, but you could see the vibrancy. Who ever established it, established it with a bullish mind. There were lot of people, mostly north eastern people.&lt;/p&gt;
+
+&lt;p&gt;When I went there first, despite it putting a face as an A/C hotel, kinda high class, I could find lot of flies in it. The workers had a busy time killing it with electric mosquito bat. But now it looks like the flies and the prosperity of the hotel has reduced.&lt;/p&gt;
+
+&lt;p&gt;In our recent visits we found that the taste of the hotels food has changed, people have changed, and the hotel’s infrastructure has gone bad. For example in our recent visit, there was no electricity (I mean there was power cut in Velacherry), so there was no grilled and tandoori chicken. We could order only chicken briyani and it was watery a bit, its taste was not up to mark. It was accompanied with onion raitha and brinjal. The brinjal was excellent I should say.&lt;/p&gt;
+
+&lt;p&gt;We also had problem paying the hotel as the person on the counter did not know to operate card swiping machine. It was sad to see the restaurant decline. A chicken briyani costs us Rs 130/- there, cheaper than the those offered by restaurants in 100 feet road Velacherry.&lt;/p&gt;
+
+&lt;p&gt;We at Namma Samayal wish the trend to reverse for Al Azmeer, for its glory days to come back.&lt;/p&gt;
+
+&lt;h2 id=&quot;location-of-al-azmeer-velacherry&quot;&gt;Location of Al Azmeer, Velacherry&lt;/h2&gt;
+
+&lt;div id=&quot;79d53c88-507d-4c12-9600-e57ac80fc9ab&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+  jekyllMaps.register(
+    '79d53c88-507d-4c12-9600-e57ac80fc9ab',
+    [{&quot;latitude&quot;:12.9743768,&quot;longitude&quot;:80.2173919,&quot;title&quot;:&quot;Al Azmeer&quot;,&quot;url&quot;:&quot;/2018/04/04/fall-of-al-azmeer-velacherry.html&quot;,&quot;image&quot;:&quot;&quot;}],
+    {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
+  );
+&lt;/script&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Karachi Halwa Recipe</title><link href="/2018/04/03/karachi_halwa_recipe_-1.html" rel="alternate" type="text/html" title="Karachi Halwa  Recipe" /><published>2018-04-03T00:00:00+05:30</published><updated>2018-04-03T00:00:00+05:30</updated><id>/2018/04/03/karachi_halwa_recipe_-1</id><content type="html" xml:base="/2018/04/03/karachi_halwa_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Karachi_Halwa_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Karachi halwa is a chewy Indian dessert loaded with the goodness of almonds, pistachios and other dry fruits.&lt;/p&gt;
 
@@ -293,43 +470,4 @@
   &lt;li&gt;Meanwhile, melt remaining tablespoon butter in a large pot over medium heat. Add onion, garlic, carrots, and celery and cook until tender, 2 to 3 minutes. Add tomatoes, stock, 1 teaspoon salt, and 1/2 teaspoon black pepper. Bring to a boil and simmer 15 minutes. Puree soup using an immersion blender or carefully pour into a blender and process in batches. Stir in cream.&lt;/li&gt;
   &lt;li&gt;Place four ovenproof soup bowls or ramekins onto a sheet pan. Divide soup among bowls and top each with 2 croutons and 1/2 cup cheese. Cook until cheese is melted and bubbling, about 5 minutes.&lt;/li&gt;
   &lt;li&gt;Garnish with parsley and serve immediately.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Beef and Guinness Pies</title><link href="/2018/03/29/beef_and_guinness_pies.html" rel="alternate" type="text/html" title="Beef and Guinness Pies" /><published>2018-03-29T00:00:00+05:30</published><updated>2018-03-29T00:00:00+05:30</updated><id>/2018/03/29/beef_and_guinness_pies</id><content type="html" xml:base="/2018/03/29/beef_and_guinness_pies.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Beef_and_Guinness_Pies&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;1 1/2 lb. beef chuck or stew meat trimmed and cut into 1” pieces&lt;/li&gt;
-  &lt;li&gt;5 tbsp. flour&lt;/li&gt;
-  &lt;li&gt;kosher salt&lt;/li&gt;
-  &lt;li&gt;Black pepper&lt;/li&gt;
-  &lt;li&gt;3 tbsp. olive oil&lt;/li&gt;
-  &lt;li&gt;6 shallots, chopped&lt;/li&gt;
-  &lt;li&gt;4 large portobello mushrooms (about 14 oz.), cut into 1” pieces&lt;/li&gt;
-  &lt;li&gt;2 large carrots, cut into 1/4” pieces&lt;/li&gt;
-  &lt;li&gt;2 cloves garlic, smashed&lt;/li&gt;
-  &lt;li&gt;1 celery stalk, finely chopped&lt;/li&gt;
-  &lt;li&gt;1 Sprig Fresh Thyme&lt;/li&gt;
-  &lt;li&gt;1 14.9 oz. can Guinness&lt;/li&gt;
-  &lt;li&gt;4 c. low-sodium beef broth&lt;/li&gt;
-  &lt;li&gt;1 1/2 tbsp. unsalted butter&lt;/li&gt;
-  &lt;li&gt;1 oz. bittersweet chocolate, finely chopped&lt;/li&gt;
-  &lt;li&gt;2 sheets frozen puff pastry 9from a 17.3 oz. package), thawed&lt;/li&gt;
-  &lt;li&gt;1 large egg, beaten&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt; 3:40&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt; 0:55&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 4&lt;/p&gt;
-
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In a large bowl, toss the beef with 2 tablespoons flour and 1/2 teaspoon each salt and pepper. Heat 1 tablespoon oil in a large pot or Dutch oven over medium heat. In two batches, brown the beef on all sides, about 5 minutes total (add 1 tablespoon oil for the second batch); transfer to a plate.&lt;/li&gt;
-  &lt;li&gt;Add the remaining 1 tablespoon oil to the pot. Add the shallots, mushrooms, carrots, garlic, celery and thyme and cook, stirring occasionally, until beginning to soften, about 5 minutes.&lt;/li&gt;
-  &lt;li&gt;Return the beef to the pot with the Guinness and beef broth (make sure beef and vegetables are covered completely, adding additional water if necessary). Simmer gently, stirring occasionally, until beef is tender, 1 1/2 to 2 hours.&lt;/li&gt;
-  &lt;li&gt;Once the beef is done, strain the cooking liquid into a large measuring cup (you should still have 3 to 4 cups). Return the beef and vegetables to the pot, discarding the thyme. Melt the butter with 1/2 cup cooking liquid in a medium saucepan over medium heat. Stir in the remaining 3 tablespoons flour to form a smooth paste. Gradually whisk in the rest of the strained cooking liquid and simmer until slightly thickened, 4 to 5 minutes. Add the chocolate and stir to melt. Pour the sauce over the beef and vegetables and let cool.&lt;/li&gt;
-  &lt;li&gt;Arrange one rack on the bottom of the oven and heat to 350 degrees F. Working with one sheet at a time, on a lightly floured surface, roll out the pastry into a 14” square and cut out two 8” circles and two 6” circles. Fit the 8” cutouts into the bottom and up the sides of two 6” pie plates. Repeat with the remaining sheet. Divide the beef mixture among the pie plates (about 1 1/2 cups per plate). use the 6” cutouts to cover each pie, pinching the edges to seal.&lt;/li&gt;
-  &lt;li&gt;Lightly brush the pastry with the egg, then use a sharp knife to cut 2 diagonal slits in the top of each piece of pastry. Place the pies on a rimmed baking sheet and bake on the lowest rack until the pastry is puffed and golden brown, 45 minutes.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
