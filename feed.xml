@@ -152,7 +152,77 @@ if (typeof Object.assign !== 'function') {
 <script async defer src='https://cdn.rawgit.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js'
         onload='jekyllMaps.initializeCluster({})'></script>
 
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-05T02:00:19+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Chettinad Fish Fry Recipe</title><link href="/2018/04/05/chettinad_fish_fry_recipe_-1.html" rel="alternate" type="text/html" title="Chettinad Fish Fry  Recipe" /><published>2018-04-05T00:00:00+05:30</published><updated>2018-04-05T00:00:00+05:30</updated><id>/2018/04/05/chettinad_fish_fry_recipe_-1</id><content type="html" xml:base="/2018/04/05/chettinad_fish_fry_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Chettinad_Fish_Fry_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2018-04-07T17:09:41+05:30</updated><id>/</id><title type="html">Namma Samayal</title><subtitle>A Blog, Critique about food, restaurants and foodie events in Chennai.</subtitle><entry><title type="html">Khatta Meat Recipe</title><link href="/2018/04/07/khatta_meat_recipe_-1.html" rel="alternate" type="text/html" title="Khatta Meat  Recipe" /><published>2018-04-07T00:00:00+05:30</published><updated>2018-04-07T00:00:00+05:30</updated><id>/2018/04/07/khatta_meat_recipe_-1</id><content type="html" xml:base="/2018/04/07/khatta_meat_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Khatta_Meat_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Aditya learns how to cook up a khatta mutton curry, a Dogri specialty, in Jammu.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Chef:&lt;/strong&gt;  Gopal&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Recipe Servings:&lt;/strong&gt;  4&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt;   15 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Cook Time:&lt;/strong&gt;  01 Hour&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Cook Time:&lt;/strong&gt;  01 Hour 15 Minutes&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Difficulty Level:&lt;/strong&gt;  Easy&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;250-300 gm mutton, cut into medium sized pieces&lt;/li&gt;
+  &lt;li&gt;2 Tbsp mustard oil&lt;/li&gt;
+  &lt;li&gt;1/2 inch cinnamon stick&lt;/li&gt;
+  &lt;li&gt;1 1/2 tsp zeera&lt;/li&gt;
+  &lt;li&gt;2 cloves&lt;/li&gt;
+  &lt;li&gt;2 black cardamom&lt;/li&gt;
+  &lt;li&gt;3-4 onions, chopped semi-fine&lt;/li&gt;
+  &lt;li&gt;3 tsp garlic paste&lt;/li&gt;
+  &lt;li&gt;2 tsp ginger, minced&lt;/li&gt;
+  &lt;li&gt;2 tsp kasoori methi&lt;/li&gt;
+  &lt;li&gt;1 1/2 turmeric&lt;/li&gt;
+  &lt;li&gt;Salt, to taste&lt;/li&gt;
+  &lt;li&gt;1 tsp kashmiri masala&lt;/li&gt;
+  &lt;li&gt;1 dried red chilli&lt;/li&gt;
+  &lt;li&gt;3 cups water&lt;/li&gt;
+  &lt;li&gt;2 1/2 heaped tsp dry mango powder (Aamchoor)&lt;/li&gt;
+  &lt;li&gt;3 green chillies de-seeded&lt;/li&gt;
+  &lt;li&gt;Chopped coriander leaves, to garnish&lt;/li&gt;
+  &lt;li&gt;1 1/2 tsp saunf&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;In a deep pan add mustard oil. Let it heat.&lt;/li&gt;
+  &lt;li&gt;Now quickly add cinnamon, zeera, cloves, black cardamom and onions. Saute till pink.&lt;/li&gt;
+  &lt;li&gt;Add garlic paste and ginger. Saute till brown.&lt;/li&gt;
+  &lt;li&gt;Add kasoori methi, turmeric, salt, kashmiri masala, dried red chilli and 1 cup water. Let it cook.&lt;/li&gt;
+  &lt;li&gt;Now add the mutton and cook for 5-7 minutes. Coat nicely with the masalas.&lt;/li&gt;
+  &lt;li&gt;Now add 2 cups water. Let it come to a boil. Cover the pan and cook on medium flame till the meat is tender. (Takes about an hour.)&lt;/li&gt;
+  &lt;li&gt;Once the meat is cooked add dry mango powder, green chillies and saunf. Mix.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Emerald</title><link href="/2018/04/07/emerald.html" rel="alternate" type="text/html" title="Emerald" /><published>2018-04-07T00:00:00+05:30</published><updated>2018-04-07T00:00:00+05:30</updated><id>/2018/04/07/emerald</id><content type="html" xml:base="/2018/04/07/emerald.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Emerald&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;2 oz. whisk(e)y&lt;/li&gt;
+  &lt;li&gt;1 oz. Italian vermouth&lt;/li&gt;
+  &lt;li&gt;1 dash orange bitters&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 1&lt;/p&gt;
+
+&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Stir all ingredients well with cracked ice, then strain into a chilled cocktail glass. We recommend using Irish whiskey.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Chettinad Fish Fry Recipe</title><link href="/2018/04/05/chettinad_fish_fry_recipe_-1.html" rel="alternate" type="text/html" title="Chettinad Fish Fry  Recipe" /><published>2018-04-05T00:00:00+05:30</published><updated>2018-04-05T00:00:00+05:30</updated><id>/2018/04/05/chettinad_fish_fry_recipe_-1</id><content type="html" xml:base="/2018/04/05/chettinad_fish_fry_recipe_-1.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Chettinad_Fish_Fry_Recipe_-1&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Surmai fish pieces marinated in a delectable masala, pan fried till crisp.&lt;/p&gt;
 
@@ -269,10 +339,10 @@ if (typeof Object.assign !== 'function') {
 
 &lt;h2 id=&quot;location-of-al-azmeer-velacherry&quot;&gt;Location of Al Azmeer, Velacherry&lt;/h2&gt;
 
-&lt;div id=&quot;ccc9a15a-c66f-4052-9eb1-baaf6cd3999d&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
+&lt;div id=&quot;ef8023b1-0309-4a81-88ef-8f1cde947ef8&quot; style=&quot;width:600px;height:400px;&quot;&gt;&lt;/div&gt;
 &lt;script type=&quot;text/javascript&quot;&gt;
   jekyllMaps.register(
-    'ccc9a15a-c66f-4052-9eb1-baaf6cd3999d',
+    'ef8023b1-0309-4a81-88ef-8f1cde947ef8',
     [{&quot;latitude&quot;:12.9743768,&quot;longitude&quot;:80.2173919,&quot;title&quot;:&quot;Al Azmeer&quot;,&quot;url&quot;:&quot;/2018/04/04/fall-of-al-azmeer-velacherry.html&quot;,&quot;image&quot;:&quot;&quot;}],
     {&quot;baseUrl&quot;:&quot;&quot;,&quot;useCluster&quot;:true,&quot;showMarker&quot;:true,&quot;showMarkerPopup&quot;:true}
   );
@@ -433,54 +503,4 @@ if (typeof Object.assign !== 'function') {
   &lt;li&gt;With knife or kitchen shears, carefully split each pita. Brush insides of pita halves lightly with oil mixture. Cut each half into 8 wedges.&lt;/li&gt;
   &lt;li&gt;Transfer wedges to 2 ungreased large cookie sheets (wedges can overlap slightly). Place cookie sheets on 2 oven racks and bake chips 8 to 10 minutes or until edges are golden. Watch carefully, as they can burn quickly.&lt;/li&gt;
   &lt;li&gt;Cool chips on cookie sheets on wire racks. Store chips in tightly covered container or large self-sealing plastic bag up to 1 week. Makes 8 dozen chips. Nutritional information is based on one chip.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Cabbage with peas</title><link href="/2018/03/31/cabbage-with-peas.html" rel="alternate" type="text/html" title="Cabbage with peas" /><published>2018-03-31T09:50:00+05:30</published><updated>2018-03-31T09:50:00+05:30</updated><id>/2018/03/31/cabbage-with-peas</id><content type="html" xml:base="/2018/03/31/cabbage-with-peas.html">&lt;p&gt;&lt;img src=&quot;/assets/images/cabbage_with_peas.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Cabbage-2 cups shredded&lt;/li&gt;
-  &lt;li&gt;Peas-1 cup&lt;/li&gt;
-  &lt;li&gt;Green chilli-2&lt;/li&gt;
-  &lt;li&gt;Mustard seeds / Kaduku-1 tsp&lt;/li&gt;
-  &lt;li&gt;Cumin seeds / Jeera-1 tsp&lt;/li&gt;
-  &lt;li&gt;Turmeric powder / Manjal podi-1 tsp&lt;/li&gt;
-  &lt;li&gt;Coriander powder / Malli podi-2 tsp&lt;/li&gt;
-  &lt;li&gt;Chilli powder-1 tsp&lt;/li&gt;
-  &lt;li&gt;Sugar-1 tsp&lt;/li&gt;
-  &lt;li&gt;Salt to taste&lt;/li&gt;
-  &lt;li&gt;Coriander leaves for garnishing&lt;/li&gt;
-  &lt;li&gt;Lemon juice-to taste&lt;/li&gt;
-  &lt;li&gt;Oil-1 tblspn&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;method&quot;&gt;Method&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In a kadai,heat oil and crackle some mustard seeds and cumin seeds.&lt;/li&gt;
-  &lt;li&gt;Add in cabbage,turmeric powder,red chilli powder,coriander powder,green chilli and mix well.Cook this for 5 min.&lt;/li&gt;
-  &lt;li&gt;Season with salt and sugar.Add in the peas and mix well.Cook this for 3 min.&lt;/li&gt;
-  &lt;li&gt;Squeeze some lemon juice and garnish with coriander leaves.&lt;/li&gt;
-  &lt;li&gt;Serve with rice.&lt;/li&gt;
-&lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">Brown Butter Crispy Treats</title><link href="/2018/03/31/brown_butter_crispy_treats.html" rel="alternate" type="text/html" title="Brown Butter Crispy Treats" /><published>2018-03-31T00:00:00+05:30</published><updated>2018-03-31T00:00:00+05:30</updated><id>/2018/03/31/brown_butter_crispy_treats</id><content type="html" xml:base="/2018/03/31/brown_butter_crispy_treats.html">&lt;p&gt;&lt;img src=&quot;/assets/images/Brown_Butter_Crispy_Treats&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;3/4 c. unsalted butter&lt;/li&gt;
-  &lt;li&gt;16 oz. marshmallows&lt;/li&gt;
-  &lt;li&gt;3/4 tsp. Flaky sea salt&lt;/li&gt;
-  &lt;li&gt;12 c. crispy rice cereal&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Total Time:&lt;/strong&gt; 0:30&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Prep Time:&lt;/strong&gt; 0:15&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Servings:&lt;/strong&gt; 24&lt;/p&gt;
-
-&lt;h2 id=&quot;procedure&quot;&gt;Procedure&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Butter a 13-by-9-inch or two 11-by-7-inch baking pans. Melt butter in a large Dutch oven over medium heat. Cook, stirring constantly, until browned, 4 to 6 minutes. Remove from heat and stir in marshmallows, until smooth. Stir in salt and cereal.&lt;/li&gt;
-  &lt;li&gt;Press into buttered pan. Sprinkle with a few pinches of salt. Cool completely. Cut into bars.&lt;/li&gt;
 &lt;/ul&gt;</content><author><name></name></author><summary type="html"></summary></entry></feed>
